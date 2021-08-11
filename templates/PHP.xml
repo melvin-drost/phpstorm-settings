@@ -1,0 +1,58 @@
+<templateSet group="PHP">
+  <template name="pfnc" value="public function $NAME$($PARAMETERS$)$TYPE$&#10;{&#10;    $END$&#10;}" description="public function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="ptfnc" value="protected function $NAME$($PARAMETERS$)$TYPE$&#10;{&#10;    $END$&#10;}" description="protected function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="pvfnc" value="private function $NAME$($PARAMETERS$)$TYPE$&#10;{&#10;    $END$&#10;}" description="private function" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMETERS" expression="phpVar" defaultValue="" alwaysStopAt="true" />
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+      <option name="PHP Trait Member" value="true" />
+    </context>
+  </template>
+  <template name="set" value="public function set$Name$($Type$ $$$Variable$): self&#10;{&#10;    $this-&gt;$Property$ = $$$Variable$;&#10;    return $this;&#10;}$END$" description="Create a setter" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="capitalize(String)" defaultValue="SELECTION" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="string" alwaysStopAt="true" />
+    <variable name="Variable" expression="decapitalize(String)" defaultValue="camelCase(Name)" alwaysStopAt="true" />
+    <variable name="Property" expression="decapitalize(String)" defaultValue="snakeCase(Name)" alwaysStopAt="false" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="get" value="public function get$Name$(): $Type$&#10;{&#10;    return $this-&gt;$Property$;&#10;}$END$" description="Create a getter" toReformat="false" toShortenFQNames="true">
+    <variable name="Name" expression="" defaultValue="$SELECTION$" alwaysStopAt="true" />
+    <variable name="Type" expression="" defaultValue="string" alwaysStopAt="true" />
+    <variable name="Property" expression="snakeCase(String)" defaultValue="snakeCase(Name)" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="bp" value="Schema::table('$Table$', function(Blueprint $table) {&#10;   $END$ &#10;});" description="Add a new Schema blueprint for Laravel migrations" toReformat="false" toShortenFQNames="true">
+    <variable name="Table" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="region" value="// region $Region$&#10;    &#10;$END$&#10;&#10;// endregion" description="Create a new region" toReformat="true" toShortenFQNames="true">
+    <variable name="Region" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
