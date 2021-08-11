@@ -10,6 +10,7 @@
     <entry key="ide.mac.allowDarkWindowDecorations" value="true" />
     <entry key="debugger.watches.in.variables" value="false" />
     <entry key="debugger.valueTooltipAutoShowOnSelection" value="true" />
+    <entry key="ide.experimental.ui.toolwindow.stripes" value="true" />
   </component>
   <component name="StatusBar">
     <option name="widgets">
@@ -18,7 +19,6 @@
         <entry key="ReadOnlyAttribute" value="false" />
         <entry key="TypeScriptInfo" value="false" />
         <entry key="com.intellij.psi.codeStyle.statusbar.CodeStyleStatusBarWidget" value="false" />
-        <entry key="mtStatusBar" value="false" />
         <entry key="php.language.level.widget" value="false" />
       </map>
     </option>
