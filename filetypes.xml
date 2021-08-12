@@ -2,8 +2,8 @@
   <component name="FileTypeManager" version="18">
     <extensionMap>
       <mapping pattern=".prettierrc" type="JSON" />
-      <mapping pattern=".php-cs" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />
+      <mapping pattern=".php-cs" type="PHP" />
       <mapping pattern="template" type="PLAIN_TEXT" />
       <mapping pattern="createpreharvestsamplingtaringdata" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
