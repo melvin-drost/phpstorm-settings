@@ -2,18 +2,18 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="546d07e6-2bb9-460d-979d-7c9901f6b123" name="PHP 7.2" home="/usr/local/opt/php@7.2/bin/php" debugger_id="php.debugger.XDebug" />
-      <interpreter id="85443d04-5896-4688-811d-c4a0e7baa814" name="PHP 7.4" home="/usr/local/Cellar/php@7.4/7.4.16/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="85443d04-5896-4688-811d-c4a0e7baa814" name="PHP 7.4" home="/usr/local/Cellar/php@7.4/7.4.22/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="dddb3457-5999-41fc-b1ab-79ec89db3653" name="PHP 8.0" home="/usr/local/Cellar/php/8.0.3/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
     <phpInfoCache>
       <interpreter name="PHP 7.4">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.4/7.4.16/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.4/7.4.16/bin/php" path_separator=":" version="7.4.16">
-          <additional_php_ini>/usr/local/etc/php/7.4/conf.d/error_log.ini, /usr/local/etc/php/7.4/conf.d/ext-xdebug.ini, /usr/local/etc/php/7.4/conf.d/php-backtrack-limits.ini, /usr/local/etc/php/7.4/conf.d/php-memory-limits.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.4/7.4.22/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.4/7.4.22/bin/php" path_separator=":" version="7.4.22">
+          <additional_php_ini>/usr/local/etc/php/7.4/conf.d/error_log.ini, /usr/local/etc/php/7.4/conf.d/ext-opcache.ini, /usr/local/etc/php/7.4/conf.d/php-memory-limits.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.4/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.4/7.4.16/share/php@7.4/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php@7.4/7.4.22/share/php@7.4/pear" />
           </configuration_options>
           <debuggers />
           <loaded_extensions>
@@ -25,6 +25,7 @@
             <extension name="Reflection" />
             <extension name="SPL" />
             <extension name="SimpleXML" />
+            <extension name="Zend OPcache" />
             <extension name="bcmath" />
             <extension name="bz2" />
             <extension name="calendar" />
