@@ -3,7 +3,7 @@
     <interpreters>
       <interpreter id="546d07e6-2bb9-460d-979d-7c9901f6b123" name="PHP 7.2" home="/usr/local/opt/php@7.2/bin/php" debugger_id="php.debugger.XDebug" />
       <interpreter id="85443d04-5896-4688-811d-c4a0e7baa814" name="PHP 7.4" home="/usr/local/Cellar/php@7.4/7.4.22/bin/php" debugger_id="php.debugger.XDebug" />
-      <interpreter id="dddb3457-5999-41fc-b1ab-79ec89db3653" name="PHP 8.0" home="/usr/local/Cellar/php/8.0.3/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="dddb3457-5999-41fc-b1ab-79ec89db3653" name="PHP 8.0" home="/usr/local/Cellar/php/8.0.9/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -86,14 +86,14 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP 8.0">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.0.3/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.0.3/bin/php" path_separator=":" version="8.0.3">
-          <additional_php_ini>/usr/local/etc/php/8.0/conf.d/error_log.ini, /usr/local/etc/php/8.0/conf.d/ext-opcache.ini, /usr/local/etc/php/8.0/conf.d/igbinary.ini, /usr/local/etc/php/8.0/conf.d/msgpack.ini, /usr/local/etc/php/8.0/conf.d/php-memory-limits.ini, /usr/local/etc/php/8.0/conf.d/redis.ini, /usr/local/etc/php/8.0/conf.d/xdebug.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php/8.0.9/bin/php-cgi" php_cli="/usr/local/Cellar/php/8.0.9/bin/php" path_separator=":" version="8.0.9">
+          <additional_php_ini>/usr/local/etc/php/8.0/conf.d/error_log.ini, /usr/local/etc/php/8.0/conf.d/ext-opcache.ini, /usr/local/etc/php/8.0/conf.d/php-memory-limits.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/8.0/php.ini</configuration_file>
           <configuration_options>
-            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.0.3/share/php/pear" />
+            <configuration_option name="include_path" value=".:/usr/local/Cellar/php/8.0.9/share/php/pear" />
           </configuration_options>
           <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="3.0.3">
+            <debugger_info debugger="xdebug" debugger_version="3.0.4">
               <debug_extensions />
             </debugger_info>
           </debuggers>
@@ -124,13 +124,12 @@
             <extension name="gmp" />
             <extension name="hash" />
             <extension name="iconv" />
-            <extension name="igbinary" />
+            <extension name="imagick" />
             <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
             <extension name="libxml" />
             <extension name="mbstring" />
-            <extension name="msgpack" />
             <extension name="mysqli" />
             <extension name="mysqlnd" />
             <extension name="odbc" />
